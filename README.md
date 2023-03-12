@@ -1,11 +1,10 @@
-# go-microservice-example  
-Example for my blog: https://bognov.tech/  
-You can find the article here:  https://bognov.tech/modern-api-design-with-golang-postgresql-and-docker
+# go-microservice
 
 # start docker
+
 docker compose up --build
 
-# curl commands  
+# curl commands
 
 curl -X GET localhost:8080/comments | jq  
 curl -X POST localhost:8080/comments -d "@request.json" | jq  
